@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+#title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+#description{
+  text-align: left;
+  
+}
+
+iframe {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border:none;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.marker {
+  background-image: url('icon/parking.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
